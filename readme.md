@@ -50,7 +50,7 @@ Now your MetaMask wallet is connected to the local Ganache blockchain!
 
 ## **Application Workflow**
 
-````plaintext
+```plaintext
 +------------+       +----------------+       +-----------------+
 |  Player A  |-------|    WebSocket   |-------|    Player B      |
 +------------+       +----------------+       +-----------------+
@@ -70,20 +70,21 @@ Now your MetaMask wallet is connected to the local Ganache blockchain!
 |         - Solidity smart contracts handle transactions       |
 |         - Tracks bets, scores, and crypto transfers          |
 +---------------------------------------------------------------+
-
-
+```
 
 ## **How to Run**
 
 ### **Start Ganache**
+
 - Launch Ganache and keep it running to serve as your local blockchain.
 
 ### **Deploy Contracts**
+
 - Use Truffle to compile and deploy the smart contracts:
   ```bash
   truffle compile
   truffle migrate
-````
+  ```
 
 start backend:
 `bash
